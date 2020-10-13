@@ -558,7 +558,7 @@ footer{
     
     }
     .container2{
-        font-size:0.75em;
+        font-size:0.9em;
     }
 
     .container3 .imgText{
@@ -699,20 +699,20 @@ footer{
 
 
 }
-@media only screen and (max-width:420px){
+@media only screen and (max-width:430px){
     .container1 h1{
        font-size: 1em;
     }
     
     .container2 .paket1 .basicText{
-         font-size:0.75em;
+         font-size:0.8em;
     }
 
     .container2 .paket2 .basicText2{
-        font-size:0.75em;
+        font-size:0.8em;
     }
     .container2 .paket3 .basicText3{
-        font-size:0.75em;
+        font-size:0.8em;
     }
 
 
@@ -730,6 +730,28 @@ footer{
 
 
 }
+
+
+@media only screen and (max-width: 335px){
+
+    
+    .container2 .paket1 .basicText{
+        font-size:0.65em;
+   }
+
+   .container2 .paket2 .basicText2{
+       font-size:0.55em;
+   }
+   .container2 .paket3 .basicText3{
+       font-size:0.65em;
+   }
+
+
+
+}
+
+
+
 
 
 

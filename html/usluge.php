@@ -97,7 +97,7 @@
         
         <div class="footerTwo">
             <div>Email: <i class="fas fa-envelope-square"></i> gogadesignweb@gmail.com</div>
-            <div>Github: <i class="fab fa-github"></i> <a href="https://github.com/nscoder123">gogaDesign</a></div>
+            <div>Github: <i class="fab fa-github"></i> <a href="https://github.com/goranivankovic">gogaDesign</a></div>
             <div>Telphone: <i class="fab fa-viber"></i> +381/064-415-68-13</div> 
             <div>Instagram: <i class="fab fa-instagram"></i> <a href="https://instagram.com">gogaDesign</a> </div>
   

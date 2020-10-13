@@ -143,7 +143,7 @@ header .logo:hover::after{
     align-items: flex-start;
     justify-content: center;
     height: 25em;
-    font-size: 1.2em;
+    font-size: 1.7em;
     padding:50px;
     font-size: 1em;
 }
@@ -154,7 +154,7 @@ header .logo:hover::after{
     align-items: flex-start;
     justify-content: center;
     height: 25em;
-    font-size: 1.2em;
+    font-size: 1.7em;
     padding: 50px;
     font-size: 0.9em;
 }
@@ -164,7 +164,7 @@ header .logo:hover::after{
     align-items: flex-start;
     justify-content: center;
     height: 25em;
-    font-size: 1.2em;
+    font-size: 1.7em;
     padding:50px;
    font-size: 0.9em;
 }
@@ -267,21 +267,8 @@ footer .footerOne{
            font-size: 1em;
         }
     }
-    @media only screen and (max-width:1150px){
-        .container2 .paket3 .basicText3{
-            font-size: 0.9em;
-         }
+   
 
-    }
-    @media only screen and (max-width:1250px){
-        .container2 .paket2 .basicText2{
-            font-size: 0.9em;
-        }
-        .container2 .paket3 .basicText3{
-            font-size: 0.9em;
-        }
-
-    }
 
 
    @media only screen and (max-width:1075px){
@@ -295,6 +282,7 @@ footer .footerOne{
         
         
     }
+    
     .container2 .paket1{
         display: flex;
         flex-direction: column;
@@ -324,29 +312,29 @@ footer .footerOne{
     }
     .container2 .paket1 .basic{
         width: 100%;
-       background-color: lightsteelblue;
+    
       
        
     }
     .container2 .paket2 .standard{
-        background-color: lightsteelblue;
+  
         width: 100%;
        
        
     }
     .container2 .paket3 .profesional{
         width: 100%;
-       background-color: lightsteelblue;
+      
        
     }
     .container2 .paket1 .basicText{
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
     .container2 .paket2 .basicText2{
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
     .container2 .paket3 .basicText3{
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
    
     
@@ -419,6 +407,17 @@ footer .footerOne{
     .container1 img{
        transform: scale(0.8);
     }
+    .container2 .paket1 .basicText{
+        font-size: 1.1em;
+    }
+    .container2 .paket2 .basicText2{
+        font-size: 1.1em;
+    }
+    .container2 .paket3 .basicText3{
+        font-size: 1.1em;
+    }
+
+
 
 
  footer{
@@ -438,9 +437,7 @@ footer .footerOne{
 
 }
 @media only screen and (max-width:520px){
-    .container2 .paket3 .basicText3{
-        font-size: 1em;
-    }
+  
 
     footer .footerOne{
         display: flex;
@@ -460,13 +457,13 @@ footer .footerOne{
 }
 @media only screen and (max-width:370px){
     .container2 .paket1 .basicText{
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .container2 .paket2 .basicText2{
-        font-size:0.8em;
+        font-size:0.9em;
     }
 
     .container2 .paket3 .basicText3{
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
 }

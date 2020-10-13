@@ -4,7 +4,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 header{
     height:5em;
     width: 100%;
@@ -167,7 +166,7 @@ font-weight: 700;
         align-items: center;
         height: 17em;
         font-size: 1.3em; 
-        font-weight: 700;
+       
         
     }
     .container1 .text2 .data2{
@@ -177,7 +176,7 @@ font-weight: 700;
         height: 17em;
         font-size: 1.3em;
         padding-left:15px;
-        font-weight: 700;
+     
     
     }
     .container1 .text3 .data3{
@@ -187,7 +186,7 @@ font-weight: 700;
         height: 17em;
         font-size: 1.3em;
         padding-left:15px;
-        font-weight: 700;
+        
 
     }
    
@@ -488,6 +487,17 @@ font-weight: 700;
         }
       
        }
+       @media only screen and (max-width: 320px){
+        footer{
+            position: absolute;
+            top: 287%;
+        }
+
+
+      
+    
+    }
+    
       
       
 
