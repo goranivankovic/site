@@ -1,0 +1,736 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pictureDruga{
+ transition: 2000ms;
+ opacity: 0.1;
+}
+
+
+/*Header data with nav & ul*/
+header{
+    height:5em;
+    width: 100%;
+    background-color: lightblue;
+   
+}
+header nav{
+   position: absolute;
+   top: 1.5em;
+   right: 2%;
+    
+}
+header nav ul{
+  display: inline-flex;
+  list-style: none;
+    
+}
+header nav ul li{
+    padding:0 20px;
+    
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 550;
+}
+header nav ul li:hover{
+    transform: scale(0.92);
+    transition: 700ms;
+}
+header nav ul li a:hover{
+    color: navajowhite;
+    transition: 700ms;
+    border-bottom: 2.4px solid black;
+
+}
+#pocetna{
+    border-bottom: 2.4px solid black;
+  
+}
+.logo{
+    padding: 0.4em;
+    padding-left: 1em;
+    font-size: 2em;
+    font-weight: 700;
+}
+.logo::after{
+    content:'';
+    display: inline-flex;
+    height: 15px;
+    width: 15px;
+    background-color: crimson;
+    transform: rotate(33deg);
+}
+/*logo hover header */
+header .logo:hover::after{
+    transform: rotate(753deg);
+    transition: 2000ms;
+}
+
+
+/*Div with image */
+.imgCont{
+position: absolute;
+top: 5em;
+left: 0%;
+right: 0%;
+width: 100%;
+height: 100%;
+
+}
+/*Div image height & width*/
+.imgCont img{
+    height: 100%;
+    width: 100%;
+
+
+}
+
+/*Container1 with position height & width*/
+.container1{
+    position: absolute;
+    top:110%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  
+    
+}
+.container1 h1{
+    position: absolute;
+    top: 2em;
+    font-weight: bold;
+}
+/*Container1 text data 1*/
+.container1 .text1{
+
+    
+    width: 30%;
+    height: 60%;
+    order: 1;
+}
+.container1 .text1 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*Container1 text data 2*/
+.container1 .text2{
+
+    width: 30%;
+    height: 60%;
+    order:2;
+ 
+}
+.container1 .text2 img{
+    height: 100%;
+    width: 100%;
+ 
+}
+/*Container1 text data 3*/
+.container1 .text3{
+
+    width: 30%;
+    height: 60%;
+    order: 3;
+}
+.container1 .text3 img{
+    height: 100%;
+    width: 100%;
+}
+/*Container2 with position height & width*/
+.container2{
+    position: absolute;
+    top:220%;
+    left: 7.5%;
+    right: 7.5%;
+    width: 85%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/*Container2 paket data 1*/
+.container2 .paket1{
+    flex-direction: column;
+    flex-basis: 30%;
+    height:100%;
+    order: 1;
+    box-shadow: 2px 2px 12px 5px black;
+
+}
+.container2 .paket1 .basic{
+    display: flex;
+    flex-basis: 100%;
+    height: 3.5em;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    font-size: 1.6em;
+    font-weight: 700;
+    
+
+}
+/*Container2 paket data 2*/
+.container2 .paket2{
+    flex-basis: 30%;
+    height: 100%;
+    order: 2;
+    box-shadow: 2px 2px 12px 5px black;
+
+}
+.container2 .paket2 .standard{
+    display: flex;
+    flex-basis: 100%;
+    height: 3.5em;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    font-size: 1.6em;
+    font-weight: 700;
+
+}
+/*Container2 paket data 1*/
+.container2 .paket3{
+    flex-basis: 30%;
+    height: 100%;
+    order: 3;
+    box-shadow: 2px 2px 12px 5px black;
+
+}
+.container2 .paket3 .profesional{
+    display: flex;
+    flex-basis: 100%;
+    height: 3.5em;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    font-size: 1.6em;
+    font-weight: 700;
+
+}
+
+
+
+
+/*Container3 with position height & width*/
+.container3{
+    position: absolute;
+    top:290%;
+    left: 7.5%;
+    right: 7.5%;
+    width: 85%;
+    height: 70%;
+    display: flex;
+   
+
+}
+/*Container3 img data*/
+.container3 img{
+    height: 90%;
+    width: 45%;
+    
+    
+    
+}
+/*Container3 text data*/
+.container3 .imgText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    padding-left: 40px;
+    
+}
+/*logo name in containter3*/
+.container3 .imgText .logo2{
+    position: absolute;
+    top:2%;
+    font-size: 2em;
+    font-weight: 700;
+}
+/*Pseudo after in logo name container3*/
+.container3 .logo2::after{
+    content:'';
+    display: inline-flex;
+    height: 15px;
+    width: 15px;
+    background-color: crimson;
+    transform: rotate(33deg);
+
+}
+
+/*footer position height & width*/
+footer{
+    position: absolute;
+    top:365%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 25em;
+    box-shadow: 2px 2px 12px 5px black;
+
+    
+}
+.container2 .paket1  .basicText{
+    padding: 50px;
+}
+.container2 .paket2 .basicText2{
+    padding: 50px;
+}
+.container2 .paket3  .basicText3{
+    padding: 25px;
+}
+
+.container2>:hover{
+    transform: scale(1.04);
+    transition: 700ms;
+    font-weight: 600;
+    background-color:lightskyblue;
+    
+}
+.container1>:hover{
+
+    transform: scale(0.95);
+    transition: 700ms;
+}
+
+footer .footerOne{
+ display: flex;
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+  font-size: 2em;
+    
+}
+footer .footerOne strong::after{
+    content:'';
+    display: inline-flex;
+    height: 15px;
+    width: 15px;
+    margin: 9px;
+    background-color: crimson;
+    transform: rotate(33deg);
+
+}
+footer .footerTwo{
+   position: absolute;
+   top: 6em;
+   left: 10%;
+   display: flex;
+   flex-direction: column;
+   font-size: 1.8em;
+   font-weight: 500;
+
+   
+
+}
+footer .footerTwo a{
+    font-weight: 700;
+    color:crimson;
+    text-decoration: none;
+}
+.menuBar{
+   position: absolute;
+   top: 0.5em;
+   font-size: 2em;
+   right: 2%;
+   display: none;
+   
+   
+}
+
+@media only screen and (max-width:1282px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        height: 150%;
+          
+    } 
+    .container2 .paket1{
+        
+        margin: 20px;
+    }
+    .container2 .paket2{
+       
+        margin: 20px;
+
+    }
+    .container2 .paket3{
+       
+        margin: 20px;
+    }
+    .container3{
+        position: absolute;
+        top: 390%;
+        
+    
+    }
+
+    .container3 .imgText .logo2{
+       position: absolute;
+       top: 1em;
+    
+    }
+    .container3 .imgText{
+        font-size: 1.2em;
+    }
+    footer{
+        position: absolute;
+        top:480%;
+    
+    }
+    
+    
+   
+   
+ 
+  
+   
+
+}
+@media only screen and (max-width:768px){
+  
+   header  nav{
+        position: absolute;
+        top: 6em;
+        left: 4%;
+        right: 4%;
+        right: 10px;
+        z-index: 10;
+        width: 92%;
+        height: 35em;
+     
+
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+   
+        
+    }
+    header nav ul li{
+       
+        width: 100%;
+        height: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+   
+
+    header nav ul li:hover{
+        background-color: lightgray;
+        transition: 1000ms;
+    }
+    
+  
+
+
+
+   
+     
+    header nav ul li #pocetna{
+        border-bottom: transparent;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+
+
+.container1{
+ 
+    height: 100%;
+    width: 80%;
+    top: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.container1 h1{
+    top: -5%;
+
+   font-size: 1.6em;
+   
+    
+    
+}
+.container1 .text1{
+    height: 30%;
+   width: 80%;
+    
+
+
+}
+.container1 .text2{
+  
+   width:85% ;
+    height: 33%;
+
+
+}
+.container1 .text3{
+    height: 30%;
+    width: 80%;
+}
+
+
+.container1 img{
+ transform: scale(0.9);
+  
+}
+
+.container2{
+   
+    top: 225%;
+    height: 170%;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+ 
+}
+.container2 .paket1{
+    width: 80%;
+  height: 30%;
+
+   
+}
+.container2 .paket2{
+    width: 80%;
+   height: 30%;
+}
+.container2 .paket3{
+    width: 80%;
+    height: 30%;
+}
+.container3{
+    position: absolute;
+    top: 410%;
+    height: 70%;
+    
+  
+    
+
+}
+.container3 .imgText .logo2{
+   position: absolute;
+   top: 1%;
+
+}
+.container3 .imgText{
+    font-size: 1em;
+}
+footer{
+    position: absolute;
+    top: 485%;
+
+}
+
+}
+@media only screen and (max-width: 600px){
+    .container3{
+        position: absolute;
+        top: 410%;
+        height: 70%;
+    
+    }
+    .container2{
+        font-size:0.7em;
+    }
+
+    .container3 .imgText{
+        font-size: 1em;
+    }
+    .container3 .imgText .logo2{
+        position: absolute;
+        top: 1%;
+
+        font-size:1em;
+
+    }
+    footer{
+        position: absolute;
+        top: 485%;
+    }
+    footer div{
+        font-size:0.9em;
+    }
+    footer .footerOne{
+        font-size:1.4em;
+       
+    }
+
+
+}
+@media only screen and (max-width: 530px){
+    .container2{
+        height:200%;
+    }
+
+
+
+    .container3{
+        position: absolute;
+        top: 430%;
+        height:70%;
+    }
+    .container3 .imgText{
+        font-size: 1em;
+    }
+    .container3 .imgText .logo2{
+        position: absolute;
+        top: 4%;
+
+        font-size:1.1em;
+
+    }
+    footer{
+        position: absolute;
+        top: 510%;
+        
+        
+
+  
+        
+
+    }
+
+    footer .footerOne{
+        font-size:1em;
+            height: 20%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+       
+    }
+
+    footer .footerTwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 60%;
+        font-size: 1.3em;
+        
+
+
+    }
+
+}
+@media only screen and (max-width: 470px){
+    .container1 .text1{
+        width: 100%;
+       
+    }
+    .container1 .text2{
+      width: 100%;
+     
+    }
+    .container1 .text3{
+        width: 100%;
+        
+    }
+
+
+    .container2{
+        position: absolute;
+        top: 225%;
+         height: 170%;
+       
+    }
+  
+    .container3{
+        position: absolute;
+        top: 410%;
+        
+    }
+    footer{
+        position: absolute;
+        top: 490%;
+        display: flex;
+       
+        align-items: center;
+        flex-direction: column;
+
+        
+    }
+    footer .footerOne{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    footer .footerTwo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 60%;
+        font-size: 1.2em;
+       
+       
+    }
+  
+
+
+
+
+}
+@media only screen and (max-width:420px){
+    .container1 h1{
+       font-size: 1em;
+    }
+    
+    .container2 .paket1 .basicText{
+         font-size:0.65em;
+    }
+
+    .container2 .paket2 .basicText2{
+        font-size:0.65em;
+    }
+    .container2 .paket3 .basicText3{
+        font-size:0.65em;
+    }
+
+
+    .container3{
+        font-size: 0.7em;
+        position: absolute;
+        top: 410%;
+
+}
+footer{
+    position: absolute;
+    top:490%;
+}
+
+
+
+}
+
+
+
+
