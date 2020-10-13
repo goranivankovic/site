@@ -43,13 +43,9 @@
                 Mi popunjavamo do 10 stranica
                 CSS responsive originalan dizajn
                 Administratorski deo sajta
-                Upload sistem za slike i dokumenta
                 Kontakt Forma
                 Online text editor
                 Galerija slika na svakoj stranici
-                Osnovna SEO optimizacija
-                Google analitika.
-                <br>
                 <br>
                 <span>Cena:120evra</span>
                 
@@ -65,14 +61,9 @@
                 Mi popunjavamo do 20 stranica
                 CSS responsive originalan dizajn
                 Administratorski deo sajta
-                Upload sistem za slike i dokumenta
                 Kontakt Forma
                 Online text editor
                 Galerija slika na svakoj stranici
-                Osnovna SEO optimizacija
-                SEO pregled i dorada textova
-                Google analitika
-                <br>
                 <br>
 
                 <span>Cena:200evra</span>
@@ -88,20 +79,14 @@
             <div class="profesional">Profesional</div>
             <div class="basicText3">
                 Broj stranica - neograničen
+                Broj stranica - neograničen
                 Mi popunjavamo do 30 stranica
                 CSS responsive originalan dizajn
                 Administratorski deo sajta
-                Upload sistem za slike i dokumenta
                 Kontakt Forma
-                Online text editor
                 Galerija slika na svakoj stranici
                 Katalog proizvoda
-                Neograničen broj kategorija
                 Neograničen broj proizvoda
-                Napredna SEO optimizacija
-                SEO pregled i dorada textova
-                Google analitika
-                <br>
                 <br>
                 <span>Cena:300 evra</span>
             </div>
