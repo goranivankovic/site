@@ -52,7 +52,7 @@
         </div>
         <div class="text2">
             <img src="img/css.jpg" alt="">
-.
+
         </div>
         <div class="text3">
             <img src="img/js.jpg" alt="">
@@ -75,9 +75,6 @@
                 Kontakt Forma
                 Online text editor
                 Galerija slika na svakoj stranici
-               
-                
-                
                 <br>
                 <strong>Cena:120evra</strong>
                 
